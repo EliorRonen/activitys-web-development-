@@ -35,3 +35,49 @@ body{
 .operator:active, .number:active{
     font-size: 13px;
 }
+.number, .empty{
+    background-color: #1B75BB;
+}
+.number, .operator{
+    cursor:pointer;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline:0;
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #4600ff
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #8e112e;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #5117f9;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #7bf670;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #f4b5d1;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #e659ff;
+}
